@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3e2cb547-4eb1-454e-9686-7c26ec506951">
+  <name>dev_tools_РедакторКода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Редактор кода</value>
+  </synonym>
+  <templateType>BinaryData</templateType>
+</mdclass:CommonTemplate>

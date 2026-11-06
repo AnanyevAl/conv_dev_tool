@@ -1,0 +1,8 @@
+* text=auto
+*.bsl text eol=crlf
+*.mdo text eol=crlf
+*.xml text eol=crlf
+*.md text
+*.bin binary
+*.png binary
+*.cfe binary

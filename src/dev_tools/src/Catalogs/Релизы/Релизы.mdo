@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="51c3d0e4-c8da-4617-b14d-2e8341e40d63" extendedConfigurationObject="0a9b4d2e-a605-43e9-82e7-46dd5c001092">
+  <producedTypes>
+    <objectType typeId="6443a0dd-596e-4f41-8153-a5ed564a1fc4" valueTypeId="dc798fbd-5547-4d12-9c92-a18309eca6fd"/>
+    <refType typeId="9ad3a8fb-bd56-4bf8-975c-f3d9d379d890" valueTypeId="c7b1e909-c6ab-4945-a236-b715af647c50"/>
+    <selectionType typeId="f563a067-996d-41e3-a7f9-107ae21b812a" valueTypeId="ca0ba861-7df3-41d7-8de6-dd8f5a70fcfa"/>
+    <listType typeId="1790b2cc-980b-49f5-baec-afc78bc8621f" valueTypeId="e2f5e98f-3b3e-4830-8565-09576909889a"/>
+    <managerType typeId="84339d7d-5cd1-4cfd-a558-4f807c7e2b6a" valueTypeId="47140c65-4a67-477b-899c-7b341541b6f0"/>
+  </producedTypes>
+  <name>Релизы</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:Catalog>

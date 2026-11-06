@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="745be957-bc71-4f96-8c61-633bee7caffa">
+  <producedTypes>
+    <objectType typeId="5a404b66-d533-4959-8e0f-b0f7b7f0e9cb" valueTypeId="a36c5b2d-cde4-4b94-b334-7a779fd927e6"/>
+    <managerType typeId="6a39424e-3cbe-43bf-b316-1ee955b4c7aa" valueTypeId="141b435f-fd19-48ac-b39b-4dd864436882"/>
+  </producedTypes>
+  <name>dev_tools_СинхронизацияПравил</name>
+  <synonym>
+    <key>ru</key>
+    <value>Синхронизация правил с каталогом</value>
+  </synonym>
+  <defaultForm>DataProcessor.dev_tools_СинхронизацияПравил.Form.Форма</defaultForm>
+  <forms uuid="777986ae-8902-4c11-acf6-79af04f66f46">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+  </forms>
+  <commands uuid="67c0fd96-2c05-44dd-941d-8622cbb31d3e">
+    <name>ОткрытьФорму</name>
+    <synonym>
+      <key>ru</key>
+      <value>Синхронизация правил с каталогом</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

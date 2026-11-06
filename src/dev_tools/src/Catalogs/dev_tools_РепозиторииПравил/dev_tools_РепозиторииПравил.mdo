@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4fe04958-491d-402f-aefd-1b6fd95b2cd6">
+  <producedTypes>
+    <objectType typeId="5c9276e5-5b0a-40ae-b34b-2c6580acc97e" valueTypeId="b5cf2304-7d98-4810-a372-7700e55fc3cd"/>
+    <refType typeId="8abb974a-4254-47c6-8524-23fc89c5b370" valueTypeId="23eae252-f3ca-4f5f-bffe-d8a289d532cd"/>
+    <selectionType typeId="078aff4e-3297-4616-a8b0-966e5d5ebc33" valueTypeId="3b54d3fd-c44f-49a1-84f7-250e36e028b4"/>
+    <listType typeId="4ddfb9b7-3d53-452a-8dbe-383e8b7995e4" valueTypeId="4e60ff17-eb32-4dc9-8393-34d812be2141"/>
+    <managerType typeId="09f8811a-036f-4e50-aaaa-5e374b2c3df1" valueTypeId="211ca3ff-57ae-4c38-858d-a768bb45440b"/>
+  </producedTypes>
+  <name>dev_tools_РепозиторииПравил</name>
+  <synonym>
+    <key>ru</key>
+    <value>Репозитории правил</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.dev_tools_РепозиторииПравил.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.dev_tools_РепозиторииПравил.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.dev_tools_РепозиторииПравил.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="4fa2fe32-86a2-4721-b6cb-a6499fe8dc00">
+    <name>КаталогРепозитория</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог репозитория</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="b8640c9f-0940-4489-a533-9186885cfdf1">
+    <name>ПодкаталогПравил</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подкаталог правил</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+  </attributes>
+  <tabularSections uuid="75fafa27-1049-4d02-8a62-c2b48ed287bc">
+    <producedTypes>
+      <objectType typeId="c600602d-6898-4ad8-b884-b21139ba0c39" valueTypeId="39ef6b00-efd3-4d1f-9d1c-fd0a2c317110"/>
+      <rowType typeId="3440ffdf-a3a5-4a35-b543-c024d3c0c648" valueTypeId="bdf89593-7db1-4dce-a859-acafeeb09df0"/>
+    </producedTypes>
+    <name>Единицы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единицы</value>
+    </synonym>
+    <attributes uuid="76eb0b35-cc53-43bb-87b9-28eb64cf6cb9">
+      <name>Единица</name>
+      <synonym>
+        <key>ru</key>
+        <value>Единица</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Конвертации</types>
+        <types>CatalogRef.Регистрации</types>
+      </type>
+      <fillChecking>ShowError</fillChecking>
+    </attributes>
+    <attributes uuid="fc93df91-de38-43a6-bba5-bde34ddb2c0d">
+      <name>ИмяКаталога</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя каталога</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+    </attributes>
+  </tabularSections>
+  <forms uuid="d5367d12-1a6f-4d57-8caf-0a3126ce1e33">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+  </forms>
+</mdclass:Catalog>

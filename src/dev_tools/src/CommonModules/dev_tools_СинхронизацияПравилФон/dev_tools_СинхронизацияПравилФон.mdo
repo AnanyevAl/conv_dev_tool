@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="409ae269-9ad3-4f4d-b21f-32444d20fb41">
+  <name>dev_tools_СинхронизацияПравилФон</name>
+  <synonym>
+    <key>ru</key>
+    <value>Синхронизация правил (фоновые операции)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

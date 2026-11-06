@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="62654f49-a20a-4be7-a359-66497f5de7cb">
+  <producedTypes>
+    <selectionType typeId="98e3ca54-cfc6-466b-8c9b-55e8124ba27c" valueTypeId="98d966fb-2f9f-4957-971d-bf251b823ae8"/>
+    <listType typeId="8ba391ee-69ab-46f3-b6cd-94949965b2f3" valueTypeId="797fd72e-4372-411a-b2ab-69c65d9bfa36"/>
+    <managerType typeId="c0eec1c4-81ad-43ef-9b06-4715f92de6a1" valueTypeId="2d37d97b-e34a-46ac-a9f5-2fa353259c83"/>
+    <recordSetType typeId="2152e150-fd7f-4b72-87fc-4945b4f541be" valueTypeId="7bb9f297-a53c-4752-a2e9-4bb850da6d8d"/>
+    <recordKeyType typeId="f6da4055-92b9-49a8-bf22-77aeb435c46a" valueTypeId="d9c9256d-d65c-45fe-b625-3bfb2444da97"/>
+    <recordType typeId="b7dd7ac5-4b49-42c7-b16b-74eb47fabb84" valueTypeId="698bfd25-a233-46ac-9d10-3adc0c42de4d"/>
+    <recordManagerType typeId="0f3ca035-e8ee-4e48-b29d-84f3415cc468" valueTypeId="036d7556-4fe2-46d0-b78d-04f1db4fb6d1"/>
+  </producedTypes>
+  <name>dev_tools_ТочкиСинхронизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Точки синхронизации правил</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="58058b9a-7a89-4211-9bd7-401e96d4ad0a">
+    <name>Хеши</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хеши файлов общей версии</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+  </resources>
+  <resources uuid="e0c31101-72e8-4bbc-b11c-dd5a04a4e620">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+  </resources>
+  <resources uuid="f7130f53-e945-4ad4-b206-686902480da8">
+    <name>Ветка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ветка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+  </resources>
+  <resources uuid="dce17d84-487a-4be9-82c9-38c550d0db0e">
+    <name>ИмяКаталога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя каталога</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+  </resources>
+  <dimensions uuid="d00bbeda-4682-4187-a7e4-70ecd1c05b86">
+    <name>Репозиторий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Репозиторий</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.dev_tools_РепозиторииПравил</types>
+    </type>
+    <master>true</master>
+  </dimensions>
+  <dimensions uuid="12b95b79-1a41-48b9-a37f-63cacf3c5c80">
+    <name>Единица</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Конвертации</types>
+      <types>CatalogRef.Регистрации</types>
+    </type>
+    <master>true</master>
+  </dimensions>
+</mdclass:InformationRegister>

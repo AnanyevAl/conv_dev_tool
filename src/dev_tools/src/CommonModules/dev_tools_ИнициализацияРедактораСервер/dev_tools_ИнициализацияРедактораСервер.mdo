@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6c52d85e-67f2-4707-b01d-50382677fb10">
+  <name>dev_tools_ИнициализацияРедактораСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Инициализация редактора сервер</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

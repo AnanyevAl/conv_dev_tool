@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="32d5cc76-daad-4c88-855e-965334313478" extendedConfigurationObject="ffc56188-6a16-4f7a-a5aa-6a0b38ab32f5">
+  <producedTypes>
+    <refType typeId="0c7802aa-60fc-4829-a753-40ba2ddf5b18" valueTypeId="a325d7a2-695f-4a26-8ff2-c1b6a7c3499a"/>
+    <listType typeId="994c9d6b-cdca-4624-95d0-227bafd710da" valueTypeId="ced8cc91-19a7-429b-8bf3-769eb6e86bb3"/>
+    <managerType typeId="8d017719-233d-4ff1-9ada-8eac189e200f" valueTypeId="09c76023-408b-4e5e-9f48-84ee7d9dcd53"/>
+  </producedTypes>
+  <name>ВидыСравнения</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <enumValues uuid="0785ec66-b4c4-4f05-96d5-7a940845c6ea" extendedConfigurationObject="f01576da-e6e0-4b8d-a0dd-8e6325277c0f">
+    <name>Равно</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="b1e76257-9e0d-41c1-92c7-895f7cfb8cfc" extendedConfigurationObject="6e1a5597-5cc4-4cd6-a0b6-6389cc3aa575">
+    <name>НеРавно</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="00faf29e-958c-4bda-9bb4-90d830ab0d98" extendedConfigurationObject="e535155c-10fd-4e4f-bfec-aa1a81863aac">
+    <name>Больше</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="37a196ce-721a-42b5-b5b4-bb7689aa2c8b" extendedConfigurationObject="602142b5-fbcd-414b-ae98-de795806faf2">
+    <name>БольшеИлиРавно</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="d645f05f-601b-46f3-bf82-ed50d0c48209" extendedConfigurationObject="908cfcc0-e008-41d4-8695-be0cff2fc824">
+    <name>Меньше</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="5c2c6011-f439-44c9-acbb-bb9386979d52" extendedConfigurationObject="31a7e17c-3f00-458f-85d1-682513b0ed86">
+    <name>МеньшеИлиРавно</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

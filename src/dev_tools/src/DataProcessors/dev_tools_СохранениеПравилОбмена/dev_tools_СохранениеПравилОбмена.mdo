@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6c78c5b9-7593-4a5d-92dc-b54c285e07a2">
+  <producedTypes>
+    <objectType typeId="0a28f1d6-c75a-4273-8197-6705f29839fe" valueTypeId="e411630e-399c-4ae5-a177-04cd8876f1b3"/>
+    <managerType typeId="abb1e0af-22d4-4bc3-b93d-ddced097477a" valueTypeId="00b65bee-96af-4e48-90f5-ce25bfc6ce16"/>
+  </producedTypes>
+  <name>dev_tools_СохранениеПравилОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сохранение правил обмена</value>
+  </synonym>
+  <useStandardCommands>false</useStandardCommands>
+  <defaultForm>DataProcessor.dev_tools_СохранениеПравилОбмена.Form.Форма</defaultForm>
+  <attributes uuid="b6b4cfd5-2bd6-44c6-ac55-e1ba7e4a5dbd">
+    <name>Конвертация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конвертация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Конвертации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.ТипКонвертации</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Enum.ТипыКонвертаций.EnumValue.XML</value>
+      </value>
+    </choiceParameters>
+  </attributes>
+  <attributes uuid="c991cb96-32c4-4c2e-94eb-7ea9e75fe9d6">
+    <name>КонвертацияКорреспондент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конвертация корреспондента</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Конвертации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.ТипКонвертации</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Enum.ТипыКонвертаций.EnumValue.XML</value>
+      </value>
+    </choiceParameters>
+  </attributes>
+  <attributes uuid="c9482aea-fb5b-423c-92c6-109d2749ec60">
+    <name>Регистрация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Регистрации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="cc37b29b-5c42-4a08-9476-ec28f311f668">
+    <name>ИмяФайлаПравил</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла правил</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="86075233-9016-4344-a12c-fda17884d6ec">
+    <name>СжиматьФайлПравил</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сжимать файл правил</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1ed68351-820a-4d66-a625-f9d2d7ff2269">
+    <name>ВыгружатьПравилаКорреспондента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгружать правила корреспондента</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="354fdb58-2984-48d1-9865-625bc21898ce">
+    <name>ВыгружатьПравилаРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгружать правила регистрации</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5d3daaa0-1a09-4a5a-b985-e4b2b43ed7e9">
+    <name>НеЗакрыватьФормуПослеСохранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не закрывать форму после сохранения</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6b0a3503-bb13-412c-9b19-418eefa5e375">
+    <name>СохранятьАвтоматическиПриОткрытии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сохранять правила автоматически при открытии формы</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4a512f3a-7db6-4202-ac1d-cf254db59f3e">
+    <name>ВыгружатьОбработчикиВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгружать код обработчиков выгрузки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2f85d83c-e13c-4b56-b8ee-f8394d4509c1">
+    <name>ИмяФайлаОбработчиковВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл модуля выгрузки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="736cfd13-7125-4557-81fd-3976bb70eca7">
+    <name>ВыгружатьОбработчикиЗагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгружать код обработчиков загрузки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="26776257-3d73-44d6-a8b4-3be5e569b767">
+    <name>ИмяФайлаОбработчиковЗагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл модуля загрузки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="9aecca93-9fed-45f5-9f1f-1528b0c1ad6d">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+  </forms>
+  <commands uuid="fe3aef63-91f2-4c9b-801f-f52eaad8033c">
+    <name>ОткрытьФорму</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сохранение правил обмена</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

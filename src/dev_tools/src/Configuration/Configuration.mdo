@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ac7053b5-1e49-485f-800f-532384842789">
+  <name>ИнструментыРазработчикаПравилКонвертации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Инструменты разработчика правил конвертации</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <managedApplicationModule>Extended</managedApplicationModule>
+    <sessionModule>Extended</sessionModule>
+    <externalConnectionModule>Extended</externalConnectionModule>
+    <commandInterface>Extended</commandInterface>
+    <mainSectionCommandInterface>Extended</mainSectionCommandInterface>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <compatibilityMode>Checked</compatibilityMode>
+    <defaultRoles>Extended</defaultRoles>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="5fa62d90-4427-4c33-bfcd-b4f3e702691d"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="e0301f46-b8a3-4a00-b265-c9eca7ac9ddc"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="7a76e67e-223b-40d8-bd87-c84ed153ee80"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="e4f23829-ff5a-47ea-ab01-5d19a3750ec0"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="9d0242c0-9bff-4024-b642-46e8f67903fb"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="ef0267cc-e796-469a-8522-0fd0a27785da"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="e4e2a1bb-f22e-496e-ad16-eb6ea1a6f10d"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>dev_tools_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.24</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.dev_tools_ОсновнаяРоль</defaultRoles>
+  <vendor>Ананьев Алексей</vendor>
+  <version>1.0.0.1</version>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <briefInformation>
+    <key>ru</key>
+    <value>Инструменты разработчика правил для 1С:Конвертация данных 3.1</value>
+  </briefInformation>
+  <copyright>
+    <key>ru</key>
+    <value>© 2026 Ананьев Алексей. Лицензия MIT</value>
+  </copyright>
+  <configurationInformationAddress>
+    <key>ru</key>
+    <value>https://github.com/AnanyevAl/conv_dev_tool</value>
+  </configurationInformationAddress>
+  <compatibilityMode>8.3.24</compatibilityMode>
+  <languages uuid="fcf50371-1c18-40ff-b57b-da4d1f820bad" extendedConfigurationObject="fa4b0c84-7a43-4ab6-ad87-b4d5483f4d2c">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Конвертации</subsystems>
+  <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
+  <styleItems>StyleItem.ПоясняющийТекст</styleItems>
+  <styleItems>StyleItem.ТекстЗапрещеннойЯчейкиЦвет</styleItems>
+  <commonPictures>CommonPicture.ДлительнаяОперация48</commonPictures>
+  <commonPictures>CommonPicture.Папка</commonPictures>
+  <commonPictures>CommonPicture.ПиктограммыЭлементов</commonPictures>
+  <roles>Role.dev_tools_ОсновнаяРоль</roles>
+  <commonTemplates>CommonTemplate.dev_tools_РедакторКода</commonTemplates>
+  <commonModules>CommonModule.dev_tools_ВыгрузкаПравилОбменаXML</commonModules>
+  <commonModules>CommonModule.dev_tools_ЗагрузкаПравил</commonModules>
+  <commonModules>CommonModule.dev_tools_ЗагрузкаСтруктурыКлиентСервер</commonModules>
+  <commonModules>CommonModule.dev_tools_ИнициализацияРедактораВызовСервера</commonModules>
+  <commonModules>CommonModule.dev_tools_ИнициализацияРедактораКлиент</commonModules>
+  <commonModules>CommonModule.dev_tools_ИнициализацияРедактораСервер</commonModules>
+  <commonModules>CommonModule.dev_tools_КомандыРедактораКлиент</commonModules>
+  <commonModules>CommonModule.dev_tools_ПодсказкиОбработчиков</commonModules>
+  <commonModules>CommonModule.dev_tools_ПрофилиПравил</commonModules>
+  <commonModules>CommonModule.dev_tools_РедакторАлгоритмов</commonModules>
+  <commonModules>CommonModule.dev_tools_РедакторАлгоритмовКлиент</commonModules>
+  <commonModules>CommonModule.dev_tools_РедакторАлгоритмовСервер</commonModules>
+  <commonModules>CommonModule.dev_tools_СверкаПравил</commonModules>
+  <commonModules>CommonModule.dev_tools_СинхронизацияПравилВызовСервера</commonModules>
+  <commonModules>CommonModule.dev_tools_СинхронизацияПравилФон</commonModules>
+  <commonModules>CommonModule.dev_tools_СнимокПравил</commonModules>
+  <commonModules>CommonModule.dev_tools_СнимокПравилКлиент</commonModules>
+  <commonModules>CommonModule.dev_tools_ТочкиСинхронизации</commonModules>
+  <catalogs>Catalog.dev_tools_РепозиторииПравил</catalogs>
+  <catalogs>Catalog.Алгоритмы</catalogs>
+  <catalogs>Catalog.Запросы</catalogs>
+  <catalogs>Catalog.Конвертации</catalogs>
+  <catalogs>Catalog.ПравилаКонвертацииОбъектов</catalogs>
+  <catalogs>Catalog.ПравилаКонвертацииПредопределенныхДанных</catalogs>
+  <catalogs>Catalog.ПравилаКонвертацииСвойств</catalogs>
+  <catalogs>Catalog.ПравилаОбработкиДанных</catalogs>
+  <catalogs>Catalog.ПравилаРегистрацииОбъектов</catalogs>
+  <catalogs>Catalog.Регистрации</catalogs>
+  <catalogs>Catalog.Релизы</catalogs>
+  <enums>Enum.БулевыОперации</enums>
+  <enums>Enum.ВариантыИдентификацииОбъектов</enums>
+  <enums>Enum.ВидыСравнения</enums>
+  <enums>Enum.ТипыКонвертаций</enums>
+  <dataProcessors>DataProcessor.dev_tools_СинхронизацияПравил</dataProcessors>
+  <dataProcessors>DataProcessor.dev_tools_СохранениеПравилОбмена</dataProcessors>
+  <dataProcessors>DataProcessor.ЗагрузкаСтруктурыКонфигурацииИзФайловXML</dataProcessors>
+  <dataProcessors>DataProcessor.НастройкаПравилОбмена</dataProcessors>
+  <informationRegisters>InformationRegister.dev_tools_ТочкиСинхронизации</informationRegisters>
+</mdclass:Configuration>
